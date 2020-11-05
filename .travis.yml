@@ -18,7 +18,7 @@ before_script:
   - npm install -g @angular/cli
   
 script:
-  - ng build --prod --base-href https://github.com/albeelum/bitcoin-order-app/
+  - ng build --prod --base-href https://albeelum.github.io/bitcoin-order-app/
   
 deploy:
   provider: pages
@@ -27,4 +27,4 @@ deploy:
   local_dir: dist/bitcoin
   edge: true
   on:
-    branch: development 
+    branch: development
